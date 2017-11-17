@@ -195,6 +195,9 @@ export interface ColDef extends AbstractColDef {
     /** Set to true if you do not want this column to be resizable by dragging it's edge. */
     suppressResize?: boolean;
 
+    suppressNavigateOutInEdit?: boolean;
+    suppressSubmissionInEdit?: boolean;
+
     /** Set to true if you do not want this column to be auto-resizable by double clicking it's edge. */
     suppressAutoSize?: boolean;
 
