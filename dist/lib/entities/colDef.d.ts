@@ -1,4 +1,4 @@
-// Type definitions for ag-grid v12.0.2
+// Type definitions for ag-grid v12.0.2-msm.1
 // Project: http://www.ag-grid.com/
 // Definitions by: Niall Crosby <https://github.com/ceolter/>
 import { RowNode } from "./rowNode";
@@ -157,6 +157,8 @@ export interface ColDef extends AbstractColDef {
     suppressSizeToFit?: boolean;
     /** Set to true if you do not want this column to be resizable by dragging it's edge. */
     suppressResize?: boolean;
+    suppressNavigateOutInEdit?: boolean;
+    suppressSubmissionInEdit?: boolean;
     /** Set to true if you do not want this column to be auto-resizable by double clicking it's edge. */
     suppressAutoSize?: boolean;
     /** If true, GUI will allow adding this columns as a row group */
